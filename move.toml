@@ -1,0 +1,15 @@
+[package]
+name = "Self-Sovereign-Identity-System"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x0d4f84a6e9888193242243327a6b64bc03881895372abbcb6503e34e2d7f1b9e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
